@@ -1,268 +1,93 @@
 [
   {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_modify_tasks_exists_and_callable",
-    "line": 52
+    "file": "dashboard/court_discuss.py",
+    "func": "get_session",
+    "line": 213
   },
   {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_modify_task_exists_and_callable",
-    "line": 57
+    "file": "dashboard/court_discuss.py",
+    "func": "destroy_session",
+    "line": 269
   },
   {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_modify_task_updates_single_task",
-    "line": 62
+    "file": "dashboard/server.py",
+    "func": "cors_headers",
+    "line": 79
   },
   {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_modify_task_returns_false_for_missing",
-    "line": 76
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_modify_tasks_bulk_update",
-    "line": 81
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_scheduler_update_persists_atomically",
-    "line": 106
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_scheduler_update_missing_task",
-    "line": 123
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_load_tasks_still_works",
-    "line": 316
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "test_save_tasks_still_works",
-    "line": 323
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "_mark_all_done",
-    "line": 88
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "update_field_a",
-    "line": 200
-  },
-  {
-    "file": "tests/test_task_mutation_race.py",
-    "func": "update_field_b",
-    "line": 207
-  },
-  {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_creates_symlink",
-    "line": 56
-  },
-  {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_idempotent_when_up_to_date",
-    "line": 68
-  },
-  {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_replaces_broken_symlink",
-    "line": 91
-  },
-  {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_creates_symlinks_in_workspace",
+    "file": "dashboard/server.py",
+    "func": "load_tasks",
     "line": 137
   },
   {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_skips_dunder_files",
-    "line": 150
+    "file": "dashboard/server.py",
+    "func": "save_tasks",
+    "line": 142
   },
   {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_legacy_workspace_main",
-    "line": 156
+    "file": "dashboard/server.py",
+    "func": "get_scheduler_state",
+    "line": 1128
   },
   {
-    "file": "tests/test_sync_symlinks.py",
-    "func": "test_idempotent_rerun",
-    "line": 166
+    "file": "dashboard/server.py",
+    "func": "handle_scheduler_retry",
+    "line": 1150
   },
   {
-    "file": "tests/test_skill_manager.py",
-    "func": "_load_skill_manager",
-    "line": 9
+    "file": "dashboard/server.py",
+    "func": "handle_scheduler_escalate",
+    "line": 1180
   },
   {
-    "file": "tests/test_skill_manager.py",
-    "func": "test_default_skills_do_not_use_removed_openclaw_hub",
-    "line": 27
+    "file": "dashboard/server.py",
+    "func": "handle_scheduler_rollback",
+    "line": 1214
   },
   {
-    "file": "tests/test_skill_manager.py",
-    "func": "test_custom_hub_base_restores_hub_skill_urls",
-    "line": 39
+    "file": "dashboard/server.py",
+    "func": "log_message",
+    "line": 2331
   },
   {
-    "file": "tests/test_skill_manager.py",
-    "func": "test_import_official_hub_uses_per_skill_recommended_agents",
-    "line": 59
+    "file": "dashboard/server.py",
+    "func": "handle_error",
+    "line": 2338
   },
   {
-    "file": "tests/test_skill_manager.py",
-    "func": "fake_add_remote",
-    "line": 65
+    "file": "dashboard/server.py",
+    "func": "handle",
+    "line": 2341
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "_get_task",
-    "line": 27
+    "file": "dashboard/server.py",
+    "func": "do_OPTIONS",
+    "line": 2347
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_dirty_title_cleaned",
-    "line": 43
+    "file": "dashboard/server.py",
+    "func": "send_json",
+    "line": 2352
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_pure_path_rejected",
-    "line": 57
+    "file": "dashboard/server.py",
+    "func": "send_file",
+    "line": 2364
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_normal_title",
-    "line": 63
+    "file": "dashboard/server.py",
+    "func": "do_GET",
+    "line": 2403
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_flow_remark_cleaned",
-    "line": 71
+    "file": "dashboard/server.py",
+    "func": "do_POST",
+    "line": 2528
   },
   {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_short_title_rejected",
-    "line": 82
-  },
-  {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_prefix_stripped",
-    "line": 88
-  },
-  {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_state_update",
-    "line": 96
-  },
-  {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_done",
-    "line": 106
-  },
-  {
-    "file": "tests/test_e2e_kanban.py",
-    "func": "test_done_not_overwritable",
-    "line": 115
-  },
-  {
-    "file": "tests/test_sync_agent_config.py",
-    "func": "_load_sync_agent_config",
-    "line": 6
-  },
-  {
-    "file": "tests/test_sync_agent_config.py",
-    "func": "test_sync_agent_config_accepts_allow_agents_key",
-    "line": 15
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "test_write_and_read",
-    "line": 10
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "test_read_missing_returns_default",
-    "line": 19
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "test_update_modifies_data",
-    "line": 24
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "test_update_creates_file",
-    "line": 39
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "test_unicode_roundtrip",
-    "line": 59
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "increment",
-    "line": 28
-  },
-  {
-    "file": "tests/test_file_lock.py",
-    "func": "init",
-    "line": 42
-  },
-  {
-    "file": "tests/test_dashboard_dispatch.py",
-    "func": "__init__",
-    "line": 43
-  },
-  {
-    "file": "tests/test_dashboard_dispatch.py",
-    "func": "start",
-    "line": 46
-  },
-  {
-    "file": "edict/migration/migrate_json_to_pg.py",
+    "file": "dashboard/server.py",
     "func": "main",
-    "line": 168
-  },
-  {
-    "file": "edict/migration/env.py",
-    "func": "do_run_migrations",
-    "line": 47
-  },
-  {
-    "file": "edict/migration/versions/001_initial.py",
-    "func": "upgrade",
-    "line": 19
-  },
-  {
-    "file": "edict/migration/versions/001_initial.py",
-    "func": "downgrade",
-    "line": 118
-  },
-  {
-    "file": "edict/backend/app/config.py",
-    "func": "get_settings",
-    "line": 82
-  },
-  {
-    "file": "edict/backend/app/config.py",
-    "func": "database_url",
-    "line": 51
-  },
-  {
-    "file": "edict/backend/app/main.py",
-    "func": "health",
-    "line": 76
-  },
-  {
-    "file": "edict/backend/app/main.py",
-    "func": "api_root",
-    "line": 81
+    "line": 2895
   },
   {
     "file": "edict/backend/app/api/legacy.py",
@@ -305,24 +130,14 @@
     "line": 34
   },
   {
-    "file": "edict/backend/app/channels/feishu.py",
+    "file": "edict/backend/app/channels/base.py",
     "func": "validate_webhook",
-    "line": 19
+    "line": 16
   },
   {
-    "file": "edict/backend/app/channels/feishu.py",
+    "file": "edict/backend/app/channels/base.py",
     "func": "send",
-    "line": 26
-  },
-  {
-    "file": "edict/backend/app/channels/slack.py",
-    "func": "validate_webhook",
-    "line": 19
-  },
-  {
-    "file": "edict/backend/app/channels/slack.py",
-    "func": "send",
-    "line": 26
+    "line": 21
   },
   {
     "file": "edict/backend/app/channels/discord.py",
@@ -331,6 +146,16 @@
   },
   {
     "file": "edict/backend/app/channels/discord.py",
+    "func": "send",
+    "line": 26
+  },
+  {
+    "file": "edict/backend/app/channels/feishu.py",
+    "func": "validate_webhook",
+    "line": 19
+  },
+  {
+    "file": "edict/backend/app/channels/feishu.py",
     "func": "send",
     "line": 26
   },
@@ -345,24 +170,24 @@
     "line": 99
   },
   {
-    "file": "edict/backend/app/channels/base.py",
+    "file": "edict/backend/app/channels/slack.py",
     "func": "validate_webhook",
-    "line": 16
+    "line": 19
   },
   {
-    "file": "edict/backend/app/channels/base.py",
+    "file": "edict/backend/app/channels/slack.py",
     "func": "send",
-    "line": 21
+    "line": 26
   },
   {
-    "file": "edict/backend/app/channels/base.py",
-    "func": "_validate_url_scheme",
-    "line": 25
+    "file": "edict/backend/app/channels/telegram.py",
+    "func": "validate_webhook",
+    "line": 19
   },
   {
-    "file": "edict/backend/app/channels/base.py",
-    "func": "_extract_domain",
-    "line": 29
+    "file": "edict/backend/app/channels/telegram.py",
+    "func": "send",
+    "line": 26
   },
   {
     "file": "edict/backend/app/channels/webhook.py",
@@ -375,16 +200,6 @@
     "line": 23
   },
   {
-    "file": "edict/backend/app/channels/telegram.py",
-    "func": "validate_webhook",
-    "line": 19
-  },
-  {
-    "file": "edict/backend/app/channels/telegram.py",
-    "func": "send",
-    "line": 26
-  },
-  {
     "file": "edict/backend/app/channels/wecom.py",
     "func": "validate_webhook",
     "line": 19
@@ -393,6 +208,66 @@
     "file": "edict/backend/app/channels/wecom.py",
     "func": "send",
     "line": 26
+  },
+  {
+    "file": "edict/backend/app/config.py",
+    "func": "database_url",
+    "line": 51
+  },
+  {
+    "file": "edict/backend/app/config.py",
+    "func": "get_settings",
+    "line": 82
+  },
+  {
+    "file": "edict/backend/app/main.py",
+    "func": "health",
+    "line": 76
+  },
+  {
+    "file": "edict/backend/app/main.py",
+    "func": "api_root",
+    "line": 81
+  },
+  {
+    "file": "edict/backend/app/models/event.py",
+    "func": "to_dict",
+    "line": 38
+  },
+  {
+    "file": "edict/backend/app/models/task.py",
+    "func": "org_for_state",
+    "line": 143
+  },
+  {
+    "file": "edict/backend/app/models/thought.py",
+    "func": "to_dict",
+    "line": 42
+  },
+  {
+    "file": "edict/backend/app/models/todo.py",
+    "func": "to_dict",
+    "line": 50
+  },
+  {
+    "file": "edict/backend/app/services/event_bus.py",
+    "func": "__init__",
+    "line": 46
+  },
+  {
+    "file": "edict/backend/app/services/event_bus.py",
+    "func": "close",
+    "line": 60
+  },
+  {
+    "file": "edict/backend/app/services/event_bus.py",
+    "func": "redis",
+    "line": 66
+  },
+  {
+    "file": "edict/backend/app/services/event_bus.py",
+    "func": "get_event_bus",
+    "line": 278
   },
   {
     "file": "edict/backend/app/services/task_service.py",
@@ -430,44 +305,9 @@
     "line": 285
   },
   {
-    "file": "edict/backend/app/services/task_service.py",
-    "func": "_get_task",
-    "line": 294
-  },
-  {
-    "file": "edict/backend/app/services/event_bus.py",
-    "func": "get_event_bus",
-    "line": 278
-  },
-  {
-    "file": "edict/backend/app/services/event_bus.py",
-    "func": "__init__",
-    "line": 46
-  },
-  {
-    "file": "edict/backend/app/services/event_bus.py",
-    "func": "close",
-    "line": 60
-  },
-  {
-    "file": "edict/backend/app/services/event_bus.py",
-    "func": "redis",
-    "line": 66
-  },
-  {
-    "file": "edict/backend/app/services/event_bus.py",
-    "func": "_stream_key",
-    "line": 70
-  },
-  {
     "file": "edict/backend/app/workers/dispatch_worker.py",
     "func": "__init__",
     "line": 47
-  },
-  {
-    "file": "edict/backend/app/workers/dispatch_worker.py",
-    "func": "__init__",
-    "line": 318
   },
   {
     "file": "edict/backend/app/workers/dispatch_worker.py",
@@ -480,24 +320,14 @@
     "line": 353
   },
   {
-    "file": "edict/backend/app/workers/dispatch_worker.py",
-    "func": "_recover_pending",
-    "line": 362
+    "file": "edict/backend/app/workers/orchestrator_worker.py",
+    "func": "__init__",
+    "line": 73
   },
   {
-    "file": "edict/backend/app/workers/dispatch_worker.py",
-    "func": "_poll_cycle",
-    "line": 371
-  },
-  {
-    "file": "edict/backend/app/workers/dispatch_worker.py",
-    "func": "_run",
-    "line": 602
-  },
-  {
-    "file": "edict/backend/app/workers/dispatch_worker.py",
-    "func": "_relevance",
-    "line": 216
+    "file": "edict/backend/app/workers/orchestrator_worker.py",
+    "func": "stop",
+    "line": 102
   },
   {
     "file": "edict/backend/app/workers/outbox_relay.py",
@@ -515,69 +345,24 @@
     "line": 49
   },
   {
-    "file": "edict/backend/app/workers/orchestrator_worker.py",
-    "func": "__init__",
-    "line": 73
+    "file": "edict/migration/env.py",
+    "func": "do_run_migrations",
+    "line": 47
   },
   {
-    "file": "edict/backend/app/workers/orchestrator_worker.py",
-    "func": "stop",
-    "line": 102
+    "file": "edict/migration/migrate_json_to_pg.py",
+    "func": "main",
+    "line": 168
   },
   {
-    "file": "edict/backend/app/workers/orchestrator_worker.py",
-    "func": "_process_task_events",
-    "line": 134
+    "file": "edict/migration/versions/001_initial.py",
+    "func": "upgrade",
+    "line": 19
   },
   {
-    "file": "edict/backend/app/models/event.py",
-    "func": "to_dict",
-    "line": 38
-  },
-  {
-    "file": "edict/backend/app/models/task.py",
-    "func": "org_for_state",
-    "line": 143
-  },
-  {
-    "file": "edict/backend/app/models/todo.py",
-    "func": "to_dict",
-    "line": 50
-  },
-  {
-    "file": "edict/backend/app/models/thought.py",
-    "func": "to_dict",
-    "line": 42
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_sanitize_text",
-    "line": 56
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_sanitize_title",
-    "line": 70
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_sanitize_remark",
-    "line": 74
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_is_valid_task_title",
-    "line": 78
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_infer_agent_id",
-    "line": 93
-  },
-  {
-    "file": "edict/scripts/kanban_update_edict.py",
-    "func": "_check_api",
-    "line": 166
+    "file": "edict/migration/versions/001_initial.py",
+    "func": "downgrade",
+    "line": 118
   },
   {
     "file": "edict/scripts/kanban_update_edict.py",
@@ -625,6 +410,46 @@
     "line": 37
   },
   {
+    "file": "scripts/fetch_morning_news.py",
+    "func": "main",
+    "line": 143
+  },
+  {
+    "file": "scripts/kanban_update.py",
+    "func": "load",
+    "line": 108
+  },
+  {
+    "file": "scripts/kanban_update.py",
+    "func": "find_task",
+    "line": 190
+  },
+  {
+    "file": "scripts/record_demo.py",
+    "func": "main",
+    "line": 11
+  },
+  {
+    "file": "scripts/refresh_live_data.py",
+    "func": "output_meta",
+    "line": 13
+  },
+  {
+    "file": "scripts/refresh_live_data.py",
+    "func": "main",
+    "line": 21
+  },
+  {
+    "file": "scripts/refresh_watcher.py",
+    "func": "main",
+    "line": 46
+  },
+  {
+    "file": "scripts/skill_manager.py",
+    "func": "main",
+    "line": 312
+  },
+  {
     "file": "scripts/sync_agent_config.py",
     "func": "normalize_model",
     "line": 52
@@ -638,36 +463,6 @@
     "file": "scripts/sync_agent_config.py",
     "func": "main",
     "line": 122
-  },
-  {
-    "file": "scripts/refresh_watcher.py",
-    "func": "_shutdown",
-    "line": 40
-  },
-  {
-    "file": "scripts/refresh_watcher.py",
-    "func": "main",
-    "line": 46
-  },
-  {
-    "file": "scripts/skill_manager.py",
-    "func": "main",
-    "line": 312
-  },
-  {
-    "file": "scripts/fetch_morning_news.py",
-    "func": "main",
-    "line": 143
-  },
-  {
-    "file": "scripts/fetch_morning_news.py",
-    "func": "get",
-    "line": 82
-  },
-  {
-    "file": "scripts/take_screenshots.py",
-    "func": "main",
-    "line": 9
   },
   {
     "file": "scripts/sync_from_openclaw_runtime.py",
@@ -705,104 +500,9 @@
     "line": 208
   },
   {
-    "file": "scripts/file_lock.py",
-    "func": "_lock_path",
-    "line": 59
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "load",
-    "line": 108
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "find_task",
-    "line": 190
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 302
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 371
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 421
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 444
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 491
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 513
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 607
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 662
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 742
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 787
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 806
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 859
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 907
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "modifier",
-    "line": 149
-  },
-  {
-    "file": "scripts/kanban_update.py",
-    "func": "memo_modifier",
-    "line": 929
-  },
-  {
     "file": "scripts/sync_officials_stats.py",
     "func": "rj",
     "line": 41
-  },
-  {
-    "file": "scripts/sync_officials_stats.py",
-    "func": "_load_openclaw_cfg",
-    "line": 51
   },
   {
     "file": "scripts/sync_officials_stats.py",
@@ -835,218 +535,8 @@
     "line": 160
   },
   {
-    "file": "scripts/record_demo.py",
+    "file": "scripts/take_screenshots.py",
     "func": "main",
-    "line": 11
-  },
-  {
-    "file": "scripts/refresh_live_data.py",
-    "func": "output_meta",
-    "line": 13
-  },
-  {
-    "file": "scripts/refresh_live_data.py",
-    "func": "main",
-    "line": 21
-  },
-  {
-    "file": "scripts/refresh_live_data.py",
-    "func": "_is_today_done",
-    "line": 68
-  },
-  {
-    "file": "dashboard/court_discuss.py",
-    "func": "get_session",
-    "line": 213
-  },
-  {
-    "file": "dashboard/court_discuss.py",
-    "func": "destroy_session",
-    "line": 269
-  },
-  {
-    "file": "dashboard/court_discuss.py",
-    "func": "_serialize",
-    "line": 710
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "cors_headers",
-    "line": 79
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "load_tasks",
-    "line": 137
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "save_tasks",
-    "line": 142
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_compute_checksum",
-    "line": 586
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_todo_progress",
-    "line": 732
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_parse_iso",
-    "line": 1033
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_ensure_scheduler",
-    "line": 1042
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_scheduler_add_flow",
-    "line": 1070
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_scheduler_snapshot",
-    "line": 1079
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_scheduler_mark_progress",
-    "line": 1090
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "get_scheduler_state",
-    "line": 1128
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "handle_scheduler_retry",
-    "line": 1150
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "handle_scheduler_escalate",
-    "line": 1180
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "handle_scheduler_rollback",
-    "line": 1214
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "main",
-    "line": 2895
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_refresh",
-    "line": 155
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_modifier",
-    "line": 187
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "do_wake",
-    "line": 986
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_apply",
-    "line": 1121
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_apply",
-    "line": 1162
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_apply",
-    "line": 1228
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_scan",
-    "line": 1273
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_do_dispatch",
-    "line": 2176
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "log_message",
-    "line": 2331
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "handle_error",
-    "line": 2338
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "handle",
-    "line": 2341
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "do_OPTIONS",
-    "line": 2347
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "send_json",
-    "line": 2352
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "send_file",
-    "line": 2364
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "do_GET",
-    "line": 2403
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "do_POST",
-    "line": 2528
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_periodic_scheduler_scan",
-    "line": 2925
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "do_refresh",
-    "line": 2660
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "update_pending",
-    "line": 2820
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "apply_async",
-    "line": 2827
-  },
-  {
-    "file": "dashboard/server.py",
-    "func": "_set_channel",
-    "line": 2844
+    "line": 9
   }
 ]
